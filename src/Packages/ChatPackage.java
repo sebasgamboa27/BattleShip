@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BS.Paquetes;
+package Packages;
 
 /**
  *
  * @author sebasgamboa
  */
-public class PaqueteChat extends Paquete {
+public class ChatPackage extends Package {
     
     public String mensaje;
     
-    public PaqueteChat(String mensaje) {
+    public ChatPackage(String mensaje) {
         super("chat");
         this.mensaje = mensaje;
     }

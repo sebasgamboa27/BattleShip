@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BS.Paquetes;
-
-import java.io.Serializable;
+package Server;
 
 /**
  *
  * @author sebasgamboa
  */
-public abstract class Paquete implements Serializable {
-    
-    public String tipo;
-    
-    public Paquete(String tipo) {
-        this.tipo = tipo;
+public class ServerMain {
+
+    /**
+     * @param args the command line arguments
+     */
+            
+    public static void main(String[] args) {
+        Server.instancia();
+        
     }
     
 }
