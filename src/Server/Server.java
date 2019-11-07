@@ -37,6 +37,8 @@ public class Server {
         ConnectionController controller = new ConnectionController();
         controller.start();
         window.setVisible(true);
+        window.getTextArea().append("Servidor activo, esperando clientes...\n");
+    
     }
     
     public void addClient(ClientListener listener) {
